@@ -117,7 +117,6 @@
       <book category="schematic" name="https://www.st.com/resource/en/schematic_pack/mb1520-h735i-b02_schematic.pdf" title="Schematics"/>
       <book category="other"     name="Documents/README.md" title="Guide"/>
       <mountedDevice    deviceIndex="0" Dvendor="STMicroelectronics:13" Dname="STM32H735IGKx"/>
-      <compatibleDevice deviceIndex="0" Dvendor="STMicroelectronics:13" DsubFamily="STM32H735"/>
       <feature type="ODbg"      n="1"              name="On-board ST-LINK-V3E"/>
       <feature type="PWR"       n="5"              name="USB VBUS, E5V, CHGR, STLK, POE5V"/>
       <feature type="CustomFF"  n="2"              name="STMicroelectronics Pmod, STMod+ connector"/>
