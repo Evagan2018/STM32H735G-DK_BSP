@@ -100,7 +100,7 @@ jobs:
         working-directory: ./CI/MW-RefApps/Examples/${{ matrix.solution.dir }}/
         run: |
           cbuild ./${{ matrix.solution.name }}.csolution.yml --update-rte --packs \
-          --toolchain AC6 --rebuild --context .Debug
+          --toolchain AC6 --rebuild
 
       - name: Upload Artifact of the ${{ matrix.solution.name }} AC6 build
         if: always()
@@ -126,7 +126,7 @@ jobs:
           rm -rf out
           rm -rf tmp
           cbuild ./${{ matrix.solution.name }}.csolution.yml --update-rte --packs \
-          --toolchain GCC --rebuild --context .Debug
+          --toolchain GCC --rebuild
 
       - name: Upload Artifact of the ${{ matrix.solution.name }} GCC build
         if: always()
