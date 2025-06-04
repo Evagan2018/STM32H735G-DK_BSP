@@ -13,18 +13,14 @@
   </licenseSets>
 
   <releases>
-    <release version="3.0.0-dev">
-      Updated for new CMSIS-Toolbox CubeMX integration
-      Removed BSP drivers
-      Removed MDK-Middleware examples
-      Removed Platform project
-      Migrated Blinky example to CMSIS Solution
-      Added Default Board Layer
-      CMSIS Drivers:
-      - Updated VIO driver to API 1.0.0
-      Pack Description:
-      - Added LICENSE file
-      - Updated schemaVersion (1.7.36)
+    <release version="3.0.1-dev">
+      Active development ...
+      Blinky project:
+      - specify thread names using thread attributes
+      - rename thread IDs
+      - modify app_main_thread (replace loop forever)
+      - add DWARF-5 debug information
+      - add RTE_Components.h files
     </release>
     <release version="2.0.0" date="2022-04-08">
       Synchronize with Keil:STM32H7xx_DFP.3.0.0
