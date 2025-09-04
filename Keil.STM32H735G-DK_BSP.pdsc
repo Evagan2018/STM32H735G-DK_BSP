@@ -16,6 +16,8 @@
   <releases>
     <release version="3.1.1-dev">
       Active development ...
+      Blinky project:
+      - Updated dbgconf files
     </release>
     <release version="2.0.0" date="2022-04-08">
       Synchronize with Keil:STM32H7xx_DFP.3.0.0
